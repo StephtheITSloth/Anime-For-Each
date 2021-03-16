@@ -16,7 +16,6 @@ const SearchResult = () => {
             fetch(animeUrl)
 			.then((res) => res.json())
 			.then((res) => {
-				console.log(res)
                setAnimes(res.results)
 			})
 			.catch((err) => {

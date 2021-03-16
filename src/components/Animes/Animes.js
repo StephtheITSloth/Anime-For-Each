@@ -8,7 +8,6 @@ const Animes = () => {
 	const [anime, setAnime] = useState([]);
 
 	useEffect(() => {
-		// const url = `${animeUrl}
 		fetch(animeUrl)
 			.then((res) => res.json())
 			.then((res) => {

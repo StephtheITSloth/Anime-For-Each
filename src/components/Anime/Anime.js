@@ -8,7 +8,6 @@ const Anime = ({match}) => {
 
     useEffect(() => {
         const id = match.params.anime;
-		// const url = `${animeUrl}
 		fetch(animeId + id)
 			.then((res) => res.json())
 			.then((res) => {
