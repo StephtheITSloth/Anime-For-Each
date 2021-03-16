@@ -12,7 +12,6 @@ const Animes = () => {
 		fetch(animeUrl)
 			.then((res) => res.json())
 			.then((res) => {
-				console.log(res.top);
 				let newAnime = res.top;
 				setAnime(newAnime);
 			})

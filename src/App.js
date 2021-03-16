@@ -4,6 +4,7 @@ import {Route, Link} from 'react-router-dom'
 import About from './components/About/About'
 import Animes from './components/Animes/Animes'
 import Anime from './components/Anime/Anime'
+import SearchResult from './components/Searchfield/SearchResult'
 
 function App() {
 
@@ -21,17 +22,22 @@ function App() {
 					<li>
 						<Link to='/animes'>Animes...</Link>
 					</li>
-					
+
+					<li>
+						<Link to='/search'>Search...</Link>
+					</li>
 				</ul>
 			</nav>
 			<main>
 				<Route path='/' />
 
+				<Route path='/search' component={SearchResult} />
+
 				<Route path='/about' exact component={About} />
 
 				<Route path='/animes' exact component={Animes} />
 
-				<Route path='/animes/:anime' component={Anime}/>
+				<Route path='/animes/:anime' component={Anime} />
 			</main>
 		</div>
 	);
