@@ -1,3 +1,67 @@
+## Project Description 
+> A short description of your project.
+My app is AnimeForEach .In this project , I will attempt to deploy an anime look up app.
+The user will search an anime in the search bar or click on character to access a list of 
+Character.
+
+
+## Link to the API you plan to use
+> API link
+https://jikan.docs.apiary.io/#
+
+## Example data response you plan to use
+```json
+https://api.jikan.moe/v3/search/anime?q=Fate/Zero&page=1
+paste your sample data here
+{
+  "request_hash": "request:search:56fac16417cf9e7fb9cfd05b73a29d4e04e57ecf",
+  "request_cached": true,
+  "request_cache_expiry": 420599,
+  "results": [
+    {
+      "mal_id": 11741,
+      "url": "https://myanimelist.net/anime/11741/Fate_Zero_2nd_Season",
+      "image_url": "https://cdn.myanimelist.net/images/anime/8/41125.jpg?s=78a6e73a2cd5856b28d8c182cd5a1a22",
+      "title": "Fate/Zero 2nd Season",
+      "airing": false,
+      "synopsis": "As the Fourth Holy Grail War rages on with no clear victor in sight, the remaining Servants and their Masters are called upon by Church supervisor Risei Kotomine, in order to band together and confron...",
+      "type": "TV",
+      "episodes": 12,
+      "score": 8.59,
+      "start_date": "2012-04-08T00:00:00+00:00",
+      "end_date": "2012-06-24T00:00:00+00:00",
+      "members": 820002,
+      "rated": "R"
+    },]
+
+## Visual of your component hierarchy
+
+## Wire Frames
+> Copy and paste or drag and drop your images here.
+
+![image](https://media.git.generalassemb.ly/user/33867/files/1874f280-81a0-11eb-9197-e64e2cae6cf9)
+## User Stories
+> Add user stories following the _As a [type of user], I want [what the user wants], so that [what it helps accomplish]_ format.
+
+### MVP Goals
+MVP User Stories
+
+MVP
+As a user, I would like to search for an anime so that I can learn more about them.
+
+As a user, I would like to click on each anime to view the details of the anime (the storyline, characters, pros or cons)  so that I can make my pick.
+
+
+### Stretch Goals
+Stretch
+ As a user, I would like to input anime names so that I can search them.
+
+As a user, I would like to click on an anime video so that I can watch the preview.
+
+As a user, I would like to click on a main character in the anime details to check out the character.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
